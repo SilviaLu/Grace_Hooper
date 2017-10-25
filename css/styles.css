@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  .biography{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.6;
+    width: 78%;
+  }
+  header h1{
+    margin-top: 0;
+    margin-bottom: 3px;
+  }
+  header hr{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .summary{
+    display: inline-block;
+    margin-top: 15px;
+    vertical-align: top;    /*para lograr un alineado vertical*/
+    width: 20%;
+  }
+  .summary-table{
+    border: 1px solid gray;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    padding: 3px;
+  }
+  .summary-table thead th{
+    background-color: #80c4de;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .summary-table tbody tr:first-child{
+    text-align: center;
+  }
+  .summary-table tbody th{
+    text-align: left;
+  }
